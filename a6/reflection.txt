@@ -1,0 +1,45 @@
+# Assignment 6 reflection
+
+## Submitter metadata
+
+Partner 1: Firstname Lastname (NetID)  - Meto Ajagu (jva24)
+Partner 2: Firstname Lastname (NetID)  -
+
+Hours spent working on this assignment: 0.0  - 16
+
+## Verification questions
+
+1. How many coins does your McDiver collect when running with a seed of
+   `-4004310660161599891`?
+
+   Answer: 475 coins
+
+## Reflection questions
+
+1. Describe your "scram" strategy at a high level.  How does McDiver decide
+   which coin to collect next, and how does he ensure he always escapes in time?
+   Also describe how you came up with this strategy and why you settled on it.
+
+   Answer: I first used the initialized the current Node of the McDiver, the exit node of the maze and
+   the Maze graph with all the nodes and created an instance of SHortestPath to use to find the best path
+   to the exit. Once that was implemented I looped through the edges of the bestPath function made in
+   ShortestPath, retrieved the next node from the edge and checked to see if for each edge the source was
+   the currentNode of McDiver. If it was then I ensured that the weight of the edge deducted from the source
+   edge was not less than 0 and then moved McDiver to corresponding node. (My implementation was not able to fully work)
+
+
+2. Are you aware of any areas where your submission is not working as intended?
+   If so, describe the issue and what you did to try to diagnose it.  Otherwise,
+   describe how you verified that your submission fulfilled its requirements.
+
+   Answer: Yes, McDiver would only move to one tile and then it would throw an error, I think this is because of the
+   implementation of moving McDiver and then updating the current Node to the nextNode. I believe there was some logical
+   errors in the implementation. I also didn't account for specific cases of when you move to an adjacent Node, similar in
+   seek(), if the distances between the two Nodes were 0 then I would still continue to move McDiver along instead of it failing
+
+
+3. Did you implement your own priority queue, or add other new classes to the
+   project?  If so, describe them here so your grader is aware of their
+   existence.
+
+   Answer: No, I used the priority queue given in the function to keep track of the which edge was of best priority
