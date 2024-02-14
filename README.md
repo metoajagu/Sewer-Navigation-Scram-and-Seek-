@@ -25,3 +25,10 @@ Focused Concepts/Topics:
  <img width="1053" alt="Screenshot 2024-01-28 at 11 13 32 PM" src="https://github.com/metoajagu/Sewer-Navigation-Scram-and-Seek-/assets/157914585/2e11b916-087a-4f23-8872-705f03662cf5">
 5.  Scram will start once the ring is found and you can increase the speed to get to the exit quicker
 <img width="1039" alt="Screenshot 2024-01-28 at 11 18 24 PM" src="https://github.com/metoajagu/Sewer-Navigation-Scram-and-Seek-/assets/157914585/dc8538e7-1d33-4cf9-97de-8f66ba10805a">
+
+
+
+
+
+https://github.com/metoajagu/Sewer-Navigation-Scram-and-Seek-/assets/157914585/b77d5cdf-4856-438d-b24b-05095fe952d1
+
